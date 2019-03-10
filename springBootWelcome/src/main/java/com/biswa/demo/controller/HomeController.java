@@ -13,6 +13,7 @@ public class HomeController {
 		return "welcome";
 	}
 	
-	
-	//public;
+	public void show() {
+		
+	}
 }
