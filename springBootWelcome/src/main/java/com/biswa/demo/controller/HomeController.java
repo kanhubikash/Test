@@ -12,4 +12,7 @@ public class HomeController {
 		System.out.println("view");
 		return "welcome";
 	}
+	
+	
+	//public;
 }
