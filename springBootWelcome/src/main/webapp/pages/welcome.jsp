@@ -8,7 +8,9 @@
 <body bgcolor="pink">
 	<center>
 		<h2 style="color: blue">
-			<u>SignIn Page</u>
+			<u>Sign In</u>
+			
+			<u>Sign Up</u>
 		</h2>
 		<form:form modelAttribute="loginCmd" method="POST">
 			<table border="10" bordercolor="maroon" height="50" width="75">
@@ -21,12 +23,12 @@
 					<td bordercolor="blue"><form:password path="password" /></td>
 				</tr>
 				<tr>
-					<td bordercolor="blue" align="center"><a href="#">Forgot
-							Password</a></td>
-					<td bordercolor="blue"><input type="submit" name=""
+					<td align="center" colspan="2" bordercolor="blue"><input type="submit" name=""
 						value="Sign In">&nbsp;</td>
 				</tr>
 			</table>
+			<h3 bordercolor="blue" align="center"><a href="#">Forgot
+							Password</a></h3>
 		</form:form>
 	</center>
 </body>
